@@ -1,0 +1,578 @@
+@media (max-width: 768px){
+    .navbar-togglar {
+        display: flex;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+        transition: all .5s;
+    }
+
+    nav {
+        background-color: #fff;
+        position: fixed;
+        top: 69px;
+        left: -250px;
+        bottom: 0;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        padding: 20px 75px;
+        transition: all .5s;
+    }
+
+    header.fixed nav {
+        left: 0;
+        z-index: 10;
+        overflow-y: scroll;
+    }
+
+    nav ul li ul {
+        position: static;
+        left: 0;
+        transition: all .5s;
+    }
+    nav ul li ul li a .search{
+        display: none;
+    }
+    .main-banner{
+        padding-top: 150px;
+    }
+    .main-banner-content p{
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .main-banner-content h1{
+        font-size: 45px;
+    }
+    .main-banner-content .btn-box .banner-btn{
+        font-size: 16px;
+        padding: 15px 30px 11px;
+    }
+
+    .section-title-mixer .section-title .sub-title{
+        font-size: 14px;
+    }
+    .section-title-mixer .section-title h2{
+        font-size: 35px;
+    }
+    .explorers-detail span{
+        text-align: center;
+    }
+    .explorers-detail h1{
+        text-align: center;
+    }
+    .explorers-detail p{
+        text-align: center;
+    }
+    .our-tools-section .section-title .sub-title{
+        font-size: 14px;
+    }
+    .our-tools-section .section-title h2{
+        font-size: 35px;
+        padding: 0 12%;
+    }
+    .awesome-motivation{
+        text-align: center;
+    }
+    .awesome-motivation .awesome-motivation-detail span{
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+    .awesome-motivation .awesome-motivation-detail h1{
+        font-size: 26px;
+    }
+    .awesome-motivation .awesome-motivation-detail p{
+        font-size: 14px;
+    }
+    .awesome-motivation .awesome-motivation-detail h2{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .work-section .section-title .sub-title{
+        font-size: 14px;
+    }
+    .work-section .section-title h2{
+        font-size: 35px;
+        padding: 0 50px;
+    }
+
+    .work-box img{
+        margin: 0 10px;
+        width: 357px;
+    }
+    .work-box .work-content{
+        width: 260px;
+        position: absolute;
+        bottom: 25px;
+        left: -80%;
+        padding: 14px 10px;
+        transition: all .4s;
+        opacity: 1;
+    }
+    .work-box:hover .work-content{
+        left: 2%;
+        opacity: 1;
+    }
+    .work-nav i{
+        display: none;
+    }
+
+    .expectation-section .section-title .sub-title{
+        font-size: 14px;
+    }
+    .expectation-section .section-title h2{
+        font-size: 35px;
+        padding: 0 50px;
+    }
+    .para-poster{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .team-section .section-title .sub-title{
+        font-size: 14px;
+    }
+    .team-section .section-title h2{
+        font-size: 35px;
+        padding: 0;
+    }
+    .para-poster{
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .para-poster-detail span{
+        font-size: 14px;
+    }
+    .para-poster-detail h1{
+        font-size: 40px;
+    }
+
+    .para-poster-video{
+        top: 67.5%;
+        right: 43.5%;
+    }
+    .para-poster-video2{
+        top: 70%;
+        right: 45%;
+    }
+    .video i{
+        top: 70%;
+        right: 45%;
+    }
+
+    .feedback-section .section-title .sub-title{
+        font-size: 14px;
+    }
+    .feedback-section .section-title h2{
+        font-size: 35px;
+        padding: 0;
+    }
+    .carousel-indicators1{
+        bottom: -260%;
+    }
+
+    .plan-section .section-title .sub-title{
+        margin-bottom: 7px;
+        font-size: 14px;
+    }
+    .plan-section .section-title h2{
+        font-size: 35px;
+        padding: 0;
+    }
+    .plan-section .section-title p{
+        padding: 0 20px;
+    }
+
+    .partner-section .section-title .sub-title{
+        margin-bottom: 7px;
+        font-size: 14px;
+    }
+    .partner-section .section-title h2{
+        font-size: 35px;
+        padding: 0 45px;
+    }
+
+    .partner-item{
+        max-width: 33%;
+    }
+
+    .news-section .section-title .sub-title{
+        font-size: 14px;
+    }
+    .news-section .section-title h2{
+        font-size: 35px;
+        padding: 0;
+    }
+
+    .copyright-area p{
+        font-size: 15px;
+    }
+    .copyright-area ul li a{
+        font-size: 15px;
+    }
+    .copyright-area ul{
+        padding-left: 24%;
+    }
+}
+
+@media (max-width: 425px){
+    .main-banner{
+        padding-top: 130px;
+    }
+    .main-banner-content p{
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .main-banner-content h1{
+        font-size: 30px;
+        padding: 0;
+    }
+    .main-banner-content .btn-box .banner-btn{
+        font-size: 14px;
+        padding: 16px 30px 12px;
+        margin-bottom: 20px;
+    }
+
+    .section-title-mixer .section-title .sub-title{
+        margin-bottom: 7px;
+        font-size: 13px;
+    }
+    .section-title-mixer .section-title h2{
+        font-size: 26px;
+    }
+
+    .featured-services .card-body .chart-line{
+        font-size: 35px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .featured-services .card-body .envelope-open{
+        font-size: 35px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .featured-services .card-body .search-plus{
+        font-size: 35px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .featured-services .card-body .card-title{
+        font-size: 20px;
+    }
+    .featured-services .card-body .card-text{
+        font-size: 14px;
+    }
+    .featured-services .card-body .btn{
+        font-size: 14px;
+        padding-top: 11px;
+        padding-bottom: 8px;
+        margin-top: 0;
+    }
+    .explorers-detail span{
+        font-size: 14px;
+        text-align: center;
+    }
+    .explorers-detail h1{
+        font-size: 26px;
+        text-align: center;
+    }
+    .explorers-detail p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .explorers-detail ul{
+        flex-flow: column;
+    }
+    .explorers-detail ul li{
+        width: fit-content;
+    }
+    .our-tools-section .section-title .sub-title{
+        font-size: 13px;
+    }
+    .our-tools-section .section-title h2{
+        font-size: 26px;
+        padding: 0;
+    }
+    .awesome-service .card-body .read-more-btn{
+        color: blue;
+        font-size: 16px;
+        display: block;
+        opacity: 1;
+    }
+
+    .read-more-btn i{
+        font-size: 16px;
+    }
+
+    .awesome-service:hover .read-more-btn{
+        color: #fff;
+    } 
+
+    .work-section .section-title .sub-title{
+        margin-bottom: 7px;
+        font-size: 13px;
+    }
+    .work-section .section-title h2{
+        font-size: 26px;
+        padding: 0;
+    }
+
+    .work-box img{
+        margin: 0 10px;
+        width: 401px;
+    }
+    .work-box .work-content{
+        width: 260px;
+        position: absolute;
+        bottom: 25px;
+        left: -80%;
+        padding: 14px 10px;
+        transition: all .4s;
+        opacity: 1;
+    }
+    .work-box:hover .work-content{
+        left: 2%;
+        opacity: 1;
+    }
+
+    .expectation-section .section-title .sub-title{
+        margin-bottom: 7px;
+        font-size: 13px;
+    }
+    .expectation-section .section-title h2{
+        font-size: 26px;
+        padding: 0;
+    }
+
+    .team-section .section-title .sub-title{
+        margin-bottom: 7px;
+        font-size: 13px;
+    }
+    .team-section .section-title h2{
+        font-size: 26px;
+        padding: 0;
+    }
+
+    .team-member .team-soc{
+        top: 77%;
+        left: 66%;
+        opacity: 1;
+    }
+
+    .para-poster{
+        text-align: center;
+        padding-top: 50px;
+    }
+    .para-poster-detail span{
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+    .para-poster-detail h1{
+        font-size: 28px;
+    }
+    .para-poster-detail p{
+        font-size: 14px;
+    }
+
+    .para-poster-video{
+        top: 68%;
+        right: 37.5%;
+    }
+    .para-poster-video2{
+        top: 70%;
+        right: 40%;
+    }
+    .video i{
+        top: 70%;
+        right: 40%;
+    }
+
+    .feedback-section{
+        margin: 0;
+    }
+    .feedback-section .section-title .sub-title{
+        margin-bottom: 7px;
+        font-size: 13px;
+    }
+    .feedback-section .section-title h2{
+        font-size: 26px;
+        padding: 0;
+    }
+
+    .carousel-inner1{
+        padding: 0;
+    }
+    .carousel-caption2 p{
+        font-size: 16px;
+    }
+      
+    .carousel-indicators1{
+        display: none;
+    }
+    
+    .plan-section .section-title .sub-title{
+        margin-top: 350px;
+        margin-bottom: 7px;
+        font-size: 13px;
+    }
+    .plan-section .section-title h2{
+        font-size: 26px;
+        padding: 0;
+    }
+    .plan-section .section-title p{
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .partner-section .section-title .sub-title{
+        margin-bottom: 7px;
+        font-size: 13px;
+    }
+    .partner-section .section-title h2{
+        font-size: 26px;
+        padding: 0;
+    }
+
+    .partner-item{
+        max-width: 50%;
+    }
+
+    .partner-item .partner-logo1{
+        padding: 20px 0;
+    }
+
+    .news-section .section-title .sub-title{
+        margin-bottom: 7px;
+        font-size: 13px;
+    }
+    .news-section .section-title h2{
+        font-size: 26px;
+        padding: 0;
+    }
+
+    .subscribe-form button{
+        width: 100%;
+        right: 0;
+        top: 80px;
+        background-color: #ffa143;
+    }
+
+    .single-footer-widget ul{
+        padding: 0;
+    }
+
+    .copyright-area p{
+        text-align: center;
+    }
+    .copyright-area ul{
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media (max-width: 375px){
+    .work-box img{
+        margin: 0 10px;
+        width: 351px;
+    }
+    .work-box .work-content{
+        width: 260px;
+        position: absolute;
+        bottom: 25px;
+        left: -80%;
+        padding: 14px 10px;
+        transition: all .4s;
+        opacity: 1;
+    }
+    .work-box:hover .work-content{
+        left: 10px;
+        opacity: 1;
+    }
+    .team-member .team-soc{
+        top: 76%;
+        left: 64%;
+        opacity: 1;
+    }
+    .para-poster-video{
+        top: 68.5%;
+        right: 37.5%;
+    }
+    .para-poster-video2{
+        top: 70%;
+        right: 40%;
+    }
+    .video i{
+        top: 70%;
+        right: 40%;
+    }
+
+    .client-info .client-name h3{
+        font-size: 16px;
+    }
+    .client-info .client-name span{
+        font-size: 15px;
+    }
+
+    .plan-section .section-title .sub-title{
+        margin-top: 390px;
+    }
+
+    .partner-item{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 320px){
+    .work-box img{
+        margin: 0 10px;
+        width: 300px;
+    }
+    .work-box .work-content{
+        width: 260px;
+        position: absolute;
+        bottom: 25px;
+        left: -80%;
+        padding: 14px 10px;
+        transition: all .4s;
+        opacity: 1;
+    }
+    .work-box:hover .work-content{
+        left: 3%;
+        opacity: 1;
+    }
+    .team-member .team-soc{
+        top: 73%;
+        left: 57%;
+        opacity: 1;
+    }
+    .para-poster-video{
+        top: 73.5%;
+        right: 37.5%;
+    }
+    .para-poster-video2{
+        top: 75%;
+        right: 40%;
+    }
+    .video i{
+        top: 75%;
+        right: 40%;
+    }
+    
+    .client-info .client-name h3{
+        font-size: 14px;
+    }
+    .client-info .client-name span{
+        font-size: 12px;
+    }
+
+    .plan-section .section-title .sub-title{
+        margin-top: 420px;
+    }
+}
